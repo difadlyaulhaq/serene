@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:serene/ui/widgets/gradient_background';
+import 'package:serene/ui/widgets/gradient_background.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});
 
   @override
-  State<ChatPage> createState() => _State();
+  State<ChatPage> createState() => _ChatPageState();
 }
 
-class _State extends State<ChatPage> {
+class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
